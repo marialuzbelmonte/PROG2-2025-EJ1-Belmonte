@@ -1,4 +1,4 @@
 package DTOs.Builder;
 
-public interface CuentaCorrienteBuilder {
+public class CuentaCorrienteBuilder {
 }
