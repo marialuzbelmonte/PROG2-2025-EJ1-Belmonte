@@ -1,4 +1,4 @@
-package DTOs;
+package Model;
 
 public class CajaDeAhorro extends Cuenta implements IGestionSaldo {
 
@@ -23,7 +23,7 @@ public class CajaDeAhorro extends Cuenta implements IGestionSaldo {
         if(saldo < monto || monto <= 0){
             return false;
         } else{
-            saldo += monto;
+            saldo -= monto;
             operaciones++;
             return true;
         }
@@ -31,6 +31,7 @@ public class CajaDeAhorro extends Cuenta implements IGestionSaldo {
 
     @Override
     public synchronized double getSaldo() {
+
         return saldo;
     }
 

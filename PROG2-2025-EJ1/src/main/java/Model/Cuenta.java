@@ -1,4 +1,4 @@
-package DTOs;
+package Model;
 
 public abstract class Cuenta {
     protected double saldo;

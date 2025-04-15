@@ -1,5 +1,5 @@
-package DTOs.Builder;
-import DTOs.CajaDeAhorro;
+package DTOs;
+import Model.CajaDeAhorro;
 
 public class CajaDeAhorroBuilder implements ICuentaBuilder {
     private double saldo;
@@ -17,9 +17,7 @@ public class CajaDeAhorroBuilder implements ICuentaBuilder {
         return this;
     }
 
-    @Override
     public CajaDeAhorro build() {
         return new CajaDeAhorro(saldo, operaciones);
     }
-
 }

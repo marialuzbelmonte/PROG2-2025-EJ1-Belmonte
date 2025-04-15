@@ -1,4 +1,4 @@
-package DTOs;
+package Model;
 
 public interface IGestionSaldo {
     boolean agregarSaldo(double monto);
