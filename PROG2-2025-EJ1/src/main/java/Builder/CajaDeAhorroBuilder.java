@@ -1,4 +1,4 @@
-package DTOs;
+package Builder;
 import Model.CajaDeAhorro;
 
 public class CajaDeAhorroBuilder implements ICuentaBuilder {

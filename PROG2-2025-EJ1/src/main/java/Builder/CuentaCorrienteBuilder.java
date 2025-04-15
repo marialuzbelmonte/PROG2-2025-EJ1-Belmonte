@@ -1,4 +1,4 @@
-package DTOs;
+package Builder;
 
 
 import Model.CuentaCorriente;

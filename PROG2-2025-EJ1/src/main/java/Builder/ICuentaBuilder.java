@@ -1,4 +1,4 @@
-package DTOs;
+package Builder;
 
 public interface ICuentaBuilder<L>
 {
